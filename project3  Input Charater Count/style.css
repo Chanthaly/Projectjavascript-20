@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #005490;
+
+}
+.container {
+    width: 40rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+  
+}
+.count {
+    font-size: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+
+}
+input {
+    display: bolck;
+    font-size: 16px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+   padding: 10px 5px;
+    width: 100%;
+    outline: none;
+}

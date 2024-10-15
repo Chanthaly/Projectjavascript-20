@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+    font-family: "Noto Sans", sans-serif;
+}
+p{
+    font-size: 1.6rem;
+      line-height: 1.5rem;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+nav {
+    height: 7.5rem;
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo {
+    font-size: 2.5rem;
+    color: #fff;
+}
+.nav-list {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+.nav-list a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-family: phetsarath ot;
+}
+section {
+    padding: 5rem 0;
+}
+.box {
+    border: 1px solid gray;
+    padding: 2rem;
+
+}
+h2 {
+    font-size: 2rem;
+    font-family: phetsarath ot;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex > * {
+    margin: 3px;
+}
+section.header {
+    background-image: url("https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    width:100%;
+    height: 90vh;
+    background-size: cover;
+}
+.scroll-indecator {
+    width: 100%;
+    height: 4px;
+    background: #f8f8f8;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 999;
+    visibility: hidden;
+
+}
+.progress {
+    width: 100%;
+    height:4px;
+   background: orange;
+}
