@@ -1,0 +1,54 @@
+  
+  
+  
+   :root{
+    --bg-color:#333;
+    --color:#fff;
+    --Display:flex;
+    --Bg-color:#fff;
+    --Color:purple;
+      
+   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif,phetsarath ot;
+  }
+  body {
+  background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Btn {
+    background: var(--Bg-color);
+    padding: 5px;
+    outline: none;
+    font-size: 25px;
+    color:  var(--Color);
+    cursor: pointer;
+    border: none;
+
+  }
+  .Btn:active{
+    transform: scale(0.98);
+  }
+  .container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .notification {
+  background: var(--color);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  color: green;
+  }
