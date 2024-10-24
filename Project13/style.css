@@ -1,0 +1,38 @@
+  :root {
+    --box-margin:3px;
+    --box-padding:10px;
+    --display:flex;
+    --bg-color:#333;
+    --color:#fff;
+    --Font-size:20px;
+    --Box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+      --Box-border:0;
+      --border-radius:5px;
+      --box-width:100vw;
+      --outline:none;
+      --border:0;
+      --box-height:100vh;
+      --transform: scale(0.8);
+      
+  }
+  body {
+    margin: var(--box-margin);
+    display: var(--display);
+    justify-content: center;
+    align-items: center;
+    height: var(--box-height);
+  }
+  button {
+    font-size: var(--Font-size);
+    color: var(--color);
+    margin: var(--box-margin);
+    padding: var(--box-padding);
+    outline: var(--outline) ;
+    border: var(--Box-border);
+      background-color: var(--bg-color);
+      border-radius: var(--border-radius);
+      box-shadow: var(--Box-shadow);
+  }
+  button:active {
+    transform: var(--transform);
+  }
